@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "jarobotic-dataplatform_jd097"
+name = "jarobotic-inference_trace_instrumentation_timeline_score"
 version = "0.1.0"
 description = "解析时间标记，排列数据平台工程师·推理链路的追踪埋点的发生顺序，标出间隔异常与逆序事件"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://jarobotic.github.io"
-Repository = "https://github.com/jarobotic/dataplatform_jd097"
-Issues = "https://github.com/jarobotic/dataplatform_jd097/issues"
+Repository = "https://github.com/jarobotic/inference_trace_instrumentation_timeline_score"
+Issues = "https://github.com/jarobotic/inference_trace_instrumentation_timeline_score/issues"
 
 [project.scripts]
-dataplatform_jd097 = "dataplatform_jd097:main"
+inference_trace_instrumentation_timeline_score = "inference_trace_instrumentation_timeline_score:main"
 
 [tool.setuptools]
-py-modules = ["dataplatform_jd097"]
+py-modules = ["inference_trace_instrumentation_timeline_score"]
